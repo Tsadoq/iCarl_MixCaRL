@@ -138,7 +138,7 @@ class iCarlNet(nn.Module):
         for indices,images,labels in train_data_loader:
             images=images.to(device)
             indices=indices.to(device)
-            g=
+            g=F.sigmoid(self.forward(images))
             
             
         
