@@ -6,11 +6,11 @@ Project for the course of Machine Learning and Deep Learning @ [PoliTO](www.poli
 
 Given the widespread presence of continuous streams of data in modern industry and the capillary deploy- ment of learning systems with limited power, the ability to learn in a continuous way would be greatly beneficial for present Machine Learning methods.
 In this paper we followed multiple steps:
-- Atfirst,we proceeded by computing a baseline,that is, we checked the effects of catastrophic forgetting: such thing was achieved by training the network on a batch of 10 classes.
-- Similarly, we computed a benchmark by using the Joint Training strategy, that is, by retraining the net at each step with all the data available up to this point.
-- We then implemented the Learning Without Forgetting method, the first academic step for Incremental learning. With this basic yet quite interesting strategy we saw the first improvement with respect to catastrophic forgetting.
-- We then proceeded with the implementation of iCaRL, a famous strategy for Incremental Classification and Representation Learning.
-- Finally, we proposed some variations to the standard iCaRL implementation that could be beneficial in some particular cases.
+1. At first,we proceeded by computing a baseline,that is, we checked the effects of catastrophic forgetting: such thing was achieved by training the network on a batch of 10 classes.
+1. Similarly, we computed a benchmark by using the Joint Training strategy, that is, by retraining the net at each step with all the data available up to this point.
+1. We then implemented the Learning Without Forgetting method, the first academic step for Incremental learning. With this basic yet quite interesting strategy we saw the first improvement with respect to catastrophic forgetting.
+1. We then proceeded with the implementation of iCaRL, a famous strategy for Incremental Classification and Representation Learning.
+1. Finally, we proposed some variations to the standard iCaRL implementation that could be beneficial in some particular cases.
 
 ## MixCarl
 
