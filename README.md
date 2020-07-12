@@ -16,6 +16,10 @@ In this paper we followed multiple steps:
 
 Starting from the idea of better taking advantage of the exemplars, we tried experimenting with some ideas on how to preserve more features using the same number of exem- plars or how to achieve similar results while using less. The general idea behind the following studies is to combine im- ages at the lowest level possible, which is pixel by pixel, and then normalize according to the strategy we used.
 
-When using few exemplars such method seems to outperform iCaRL implementation
+When using few exemplars such method seems to outperform iCaRL implementation:
+
+![accuracy](/Docs/rnd_unb_100.png)
 
 ## Docs
+
+For a deeper explanation of how we proceededm check our [paper](/Docs/paper.pdf) and the [slides](/Docs/slides.pdf) 
