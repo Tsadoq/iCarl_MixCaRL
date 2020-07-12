@@ -1,6 +1,6 @@
 # iCaRL PyTorch Implementation and MixCaRL
 
-Project for the course of Machine Learning and Deep Learning @ PoliTO.
+Project for the course of Machine Learning and Deep Learning @ [PoliTO](www.polito.it).
 
 ## Introduction
 
